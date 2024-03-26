@@ -28,13 +28,6 @@ def process_data():
     # samarize the code
     summary = summarize_reviews(classified_result)
 
-    print(f"classified_result {classified_result}")
-    print(f"-------------------pos-----------------\n {pos}")
-    print(f"-------------------neg-----------------\n {neg}")
-    print(f"-------------------unrel-----------------\n {unrel}")
-    print("------------------------------------------------")
-    print(f"summary {summary}")
-
     # Return a response
     
     positive = (pos/5)*100
