@@ -1,6 +1,4 @@
-Flask
+flask
 flask-cors
 requests
 cohere==5.1.1
-Werkzeug==2.2.2
-google-api-python-client==2.32.0
