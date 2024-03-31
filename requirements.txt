@@ -3,3 +3,4 @@ Flask-cors
 requests
 cohere==5.1.1
 Werkzeug==2.2.2
+sanic==19.6.0
