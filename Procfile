@@ -1,1 +1,1 @@
-web: gunicord app:wsgi
+web: gunicord wsgi
