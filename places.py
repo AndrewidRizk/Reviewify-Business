@@ -53,7 +53,7 @@ def get_location_from_postal_code(postal_code, api_key):
         return f"Location not found for postal code {postal_code}"
 
 def main_get_total_reviews(restaurant_name, postal_code):
-    # Input: Name of the restaurant and postal code
+    #Input: Name of the restaurant and postal code
     #restaurant_name = 'Pita N More'
     #postal_code = 'L8S 1C5'
 
