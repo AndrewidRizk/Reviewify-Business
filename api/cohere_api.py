@@ -89,31 +89,3 @@ def summarize_reviews(classified_reviews):
   negative_summary = negative_response.text.split('\n', 1)
 
   return [positive_summary[0], negative_summary[0]]
-
-def main():
-  #Hard coded inputs for testing
-  inputs=[
-    "Worst experience on McDelivery. I was waiting for almost 30 minutes for a Doordash pickup along side many other delivery person. Store staff is unprofessional and do not respond to the doorbell which is specifically installed for delivery person.",
-    "Sending a shout out to the manager or store person who packed in an extra McDouble for free, possibly for the long wait of my order. Whether that was intentional or not, was cool to get a freebie.",
-    "The chef must have taken a detour through outer space before crafting my dish. I ordered spaghetti and got a constellation of noodles orbiting a meatball planet. A cosmic culinary experience that left my taste buds lost in space!",
-    "Don't even bother going here, we've lived in this area now since February and every single time we've gotten food from here they mess up our order for forget half our food.",
-    "Hot fresh food served by flight friendly staff in a very clean restaurant.  Two hamburger patties two slices of tomato pickle ketchup and mustard with a side order of small fries makes for a perfect gluten-free lunch for a Celiac like me.",
-    "Seems like they played hockey with the burgers before putting in the bag. Soda machine alway messes up and gives you a nasty tasting drink. Also they keep forgetting to put sweet and sour sauce for nuggets when I not only ask for it but I always ask for extra and pay for it too...",
-    "It a McDonald's! Nothing out of the expected. Ordered from the totem and grabbed it on the balcony. The place is quite nice, we sat on the second floor tables and had a great time!"
-  ]
-
-  classified_result, pos, neg, unrel = classify_reviews(inputs)
-  print(classified_result)
-  print(pos)
-  print(neg)
-  print(unrel)
-  #print(classified_result)
-  summary = summarize_reviews(classified_result)
-  print("positive summary:")
-  print(summary[0])
-  print("negative summary:")
-  print(summary[1])
-
-if __name__ == "__main__":
-    main()
-
