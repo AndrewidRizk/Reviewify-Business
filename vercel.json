@@ -5,5 +5,12 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/" } 
-    ]
+    ],
+    "functions": {
+      "api/**/*.py": {
+        "excludeFiles": ["**/my-app", "/__pycache__"]
+      }
+    }
+
   }
+ 
