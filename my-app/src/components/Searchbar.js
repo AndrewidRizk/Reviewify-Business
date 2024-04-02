@@ -10,7 +10,7 @@ const SearchBar = (props, { onSearch }) => {
 
   const sendDataToFlask = async () => {
     props.setLoading(true);
-    const apiUrl = 'http://localhost:5000/flask/process_data';
+    const apiUrl = 'https://reviewify-backend.vercel.app/flask/process_data';
 
     const requestData = {
       restaurant: restaurant,

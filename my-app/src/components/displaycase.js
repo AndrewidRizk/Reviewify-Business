@@ -9,7 +9,7 @@ const DisplayCase = (props) => {
 
 
   useEffect(()=>{
-    axios.get('http://localhost:5000/flask/hello').then(response => {
+    axios.get('https://reviewify-backend.vercel.app/flask/hello').then(response => {
       console.log("SUCCESS", response)
       setGetMessage(response)
     }).catch(error => {
