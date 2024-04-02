@@ -5,6 +5,10 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/" } 
-    ]
-    
+    ],
+    "functions": {
+      "api/**/*.py": {
+        "excludeFiles": "**/*.html"
+      }
+    }
   }
