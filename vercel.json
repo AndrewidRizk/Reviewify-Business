@@ -9,7 +9,7 @@
     "functions": {
       "api/**/*.py": {
         "excludeFiles": "**/my-app"
-      }
+      } 
     }
 
   }
