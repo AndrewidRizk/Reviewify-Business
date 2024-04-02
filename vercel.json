@@ -8,8 +8,8 @@
     ],
     "functions": {
       "api/**/*.py": {
-        "excludeFiles": "**/my-app"
-      } 
+        "excludeFiles": "**/*.html"
+      }
     }
 
   }
