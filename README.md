@@ -1,8 +1,8 @@
 ## Structure
 - Backend
   * Running on https://reviewify-backend.vercel.app/
-  * Added a flask-UI activity Log that shows the Activity and Errors occuring
-  * Reciving information from the Front end on route /flask/process_data
+  * Added a flask-UI activity Log that shows the Activity and Errors occurring
+  * Receiving information from the Front end on route /flask/process_data
   * Packages:
     * Flask==2.2.2
     * Flask-cors
@@ -12,7 +12,7 @@
 - Frontend (React.js)
   * Running on Add Link Here
   * Supmiting the input to the API URL https://reviewify-backend.vercel.app/flask/process_data
-  * Reciving Information on https://reviewify-backend.vercel.app/flask/hello
+  * Receiving Information on https://reviewify-backend.vercel.app/flask/hello
   * Packages:
     * axios
 ## How to use
