@@ -37,25 +37,23 @@ const SearchBar = (props, { onSearch }) => {
 
   
   return (
-    <>
-      <div class="new-search">
+    <div className="new-search">
         <input
           type="text"
           value={restaurant}
           onChange={(e) => setInput1(e.target.value)}
           placeholder="Business Name"
-          class="searchInput"
+          className="searchInput"
         />
         <input
           type="text"
           value={postal}
           onChange={(e) => setInput2(e.target.value)}
           placeholder="Postal code"
-          class="searchInput"
+          className="searchInput"
         />
       <button onClick={sendDataToFlask} id="searchButton">Search</button>
     </div>
-    </>
   );
 };
 

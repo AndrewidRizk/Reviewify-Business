@@ -41,15 +41,7 @@ const DisplayCase = (props) => {
   if (props.processedData.length === 0) {
     return (
     <div className="flex-container">
-    <div className="sidebar">
-                <ul className="sideList">
-                <a href="#top" className="heading">GO TO TOP</a>
-                <li className="heading">CONTENT</li>
-                <a href="#thegood" className="sideItem">Positive Reviews</a>
-                <a href="#thebad" className="sideItem">Negative Reviews</a>
-                <a href="#theirrelevant" className="sideItem">Unrelated Reviews</a>
-                </ul>
-    </div>
+
     <div className="showCase" id="empty-fam">
       <div className="empty-message">
         <p>Please enter the name of your business and its postal code to get started...</p>
@@ -61,15 +53,7 @@ const DisplayCase = (props) => {
 
     return (
         <div className="flex-container">
-            <div className="sidebar">
-                <ul className="sideList">
-                <a href="#top" className="heading">GO TO TOP</a>
-                <li className="heading">CONTENT</li>
-                <a href="#thegood" className="sideItem">Positive Reviews</a>
-                <a href="#thebad" className="sideItem">Negative Reviews</a>
-                <a href="#theirrelevant" className="sideItem">Unrelated Reviews</a>
-                </ul>
-            </div>
+
             <div className="showCase">
                 <div className="header" id="top">
                     <h1 style={{textTransform: "capitalize"}}>{props.processedData[5]}</h1>
@@ -92,13 +76,13 @@ const DisplayCase = (props) => {
                     <h2>Positive Reviews</h2>
                     <p>Here is what customers enjoyed most about your restaurant:</p>
                     <br/>
-                    <p>{props.processedData[3]}</p>
+                    <p className="thegoodbadp">{props.processedData[3]}</p>
                 </div>
                 <div className="thebad" id="thebad">
                     <h2>Negative Reviews</h2>
                     <p>Here is what customers disliked about your restaurant:</p>
                     <br/>
-                    <p>{props.processedData[4]}</p>
+                    <p className="thegoodbadp">{props.processedData[4]}</p>
                 </div>
             </div>
         </div>

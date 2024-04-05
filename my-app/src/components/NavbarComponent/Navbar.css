@@ -35,7 +35,7 @@ p {
   margin: 0;
   background-color: #fafafa;
   margin-top: .75rem;
-  width: 96vw
+  width: 80vw
 }
 
 #title-2 {
@@ -59,15 +59,24 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 700px) { 
   #title-2 {
     padding-right:30%;
   }
 }
 
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 505px) { 
   #title-2 {
     padding-right:0%;
+  }
+}
+
+@media screen and (max-width: 351px) { 
+  #title-2 {
+    padding-right:-20%;
+  }
+  .home{
+    visibility: hidden;
   }
 }
 
@@ -115,7 +124,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 60%;
   animation-duration: 250ms;
   animation-timing-function: ease;
 }

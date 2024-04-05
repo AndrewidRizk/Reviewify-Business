@@ -13,7 +13,7 @@ const Navbar = () => {
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item id="title-2">
           <NavigationMenu.Link className="NavigationMenuLink" href="." id="title-1">
-          <img src={logo} height="30px"/><p> reviewify</p>
+          <p> reviewify</p>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
@@ -22,13 +22,10 @@ const Navbar = () => {
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
-          <NavigationMenu.Link className="NavigationMenuLink" href=".">
-            Dashboard
-          </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Link className="NavigationMenuLink" href=".">
-            <IoHome size="20px"/>
+            <IoHome size="20px" className='home'/>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
 

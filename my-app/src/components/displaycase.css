@@ -1,6 +1,5 @@
 .flex-container {
     width: 100%; /* Or the maximum width of your content area */
-    min-height: 1200px;
     background: #FFF; /* Or any background color you prefer */
     display: flex;
     justify-content: flex-start;
@@ -10,17 +9,7 @@
     overflow: hidden;
   }
 
-  .sidebar {
-    padding: 20px;
-    padding-left: 50px;
-    background-color: #F5F4F2;
-    width: 20%;
-    border-right: 1px solid rgba(0,0,0,0.15);
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 14px;
-    display: flex;
-  }
+
   
   .sideList {
     display: flex;
@@ -52,11 +41,11 @@
     padding: 5px;
   }
 
-  @media only screen and (max-width: 768px) {
+
     .sidebar {
       display: none;
     }
-  }
+  
 
   .showCase {
     background-color: #Fafafa;
@@ -159,6 +148,9 @@
   .thegood, .thebad {
     padding-right: 100px;
   }
+  .thegoodbadp{
+    width: 0.2vw;
+  }
 
   .thegood h2, .thebad h2 {
     margin-bottom: 10px;
@@ -188,4 +180,114 @@
     align-content: center;
     padding-top: 200px;
   }
+
+
+  .empty-message {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 725px) { 
+
+  #statOne {
+    margin-right: 10%;
+  }
+
+  #statTwo {
+    margin-right: 10%;
+  }
+
+  #statThree {
+    margin-right: 10%;
+  }
+
+}
+@media screen and (max-width: 600px) { 
+
+.thegood , .thebad{
+  padding-right: 200px;
+}
+}
+
+@media screen and (max-width: 512px) { 
+
+  #statOne {
+    font-size: 80%;
+  }
+
+  #statTwo {
+    font-size: 80%;
+  }
+
+  #statThree {
+    font-size: 80%;
+  }
+.rating{
+  transform: scale(0.8);
+  margin-left: -10%;
+}
+}
+
+@media screen and (max-width: 450px) { 
+
+  .thegood , .thebad{
+    padding-right: 220px;
+  }
+  }
+  
+
+
+@media screen and (max-width: 400px) { 
+
+  #statOne {
+    margin-right: 5%;
+    font-size: 65%;
+  }
+
+  #statTwo {
+    margin-right: 5%;
+    font-size: 65%;
+  }
+
+  #statThree {
+    margin-right: 5%;
+    font-size: 65%;
+  }
+
+  .thegood , .thebad{
+    padding-right: 260px;
+  }
+
+  .rating{
+    transform: scale(0.6);
+    margin-left: -30%;
+  }
+}
+
+
+@media screen and (max-width: 300px) { 
+
+  #statOne {
+    margin-right: 2%;
+    font-size: 55%;
+  }
+
+  #statTwo {
+    margin-right: 2%;
+    font-size: 55%;
+  }
+
+  #statThree {
+    margin-right: 2%;
+    font-size: 55%;
+  }
+  .rating{
+    transform: scale(0.5);
+    margin-left: -35%;
+  }
+
+}
+
 
