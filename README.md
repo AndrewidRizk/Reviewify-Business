@@ -11,7 +11,7 @@
     * Werkzeug==2.2.2
 - Frontend (React.js)
   * Running on Add Link Here
-  * Supmiting the input to the API URL https://reviewify-backend.vercel.app/flask/process_data
+  * Supmiting the input to the API
   * Receiving Information on https://reviewify-backend.vercel.app/flask/hello
   * Packages:
     * axios
