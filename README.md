@@ -16,7 +16,7 @@
     * axios
 ## How to use
 - Find a Business on Google Maps
-  ![image](https://github.com/AndrewidRizk/Reviewify-Business/assets/97995173/24b98ed1-e70e-46e2-9a99-4674de889b42)
+ ![image](https://github.com/AndrewidRizk/Reviewify-Business/assets/97995173/ab2d583f-e881-4ba6-82c8-b2664ba7611e)
 - Take the name and postal code and write them on Reviewify and click Search
   ![image](https://github.com/AndrewidRizk/Reviewify-Business/assets/97995173/ad2782e9-0c96-46d1-a5b2-ae5f48192481)
 - The front end is making contact with the backend, sending them the information of the business, and receiving the results.
