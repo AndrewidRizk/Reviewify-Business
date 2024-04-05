@@ -12,7 +12,6 @@
 - Frontend (React.js)
   * Running on Add Link Here
   * Supmiting the input to the API
-  * Receiving Information on https://reviewify-backend.vercel.app/flask/hello
   * Packages:
     * axios
 ## How to use
