@@ -7,7 +7,8 @@
     border-top: 1px solid rgba(0,0,0,0.15);
     margin-top: 10px;
     overflow: hidden;
-    height: 80vh;
+    height: 90vh;
+    overflow-y: scroll;
   }
 
 
